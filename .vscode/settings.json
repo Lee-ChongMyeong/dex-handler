@@ -1,0 +1,110 @@
+{
+  "vim.insertModeKeyBindings": [],
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "files.autoSaveDelay": 2000,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[typescriptreact]": {
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "outline.showFunctions": true,
+    "outline.showConstants": false,
+    "outline.showKeys": false,
+    "outline.showProperties": false,
+    "outline.showEnumMembers": false,
+    "outline.showBooleans": false,
+    "outline.showArrays": false
+  },
+  "eslint.format.enable": true,
+  "npm.enableRunFromFolder": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "settingsSync.ignoredSettings": [
+    "-python.defaultInterpreterPath"
+  ],
+  "prettier.bracketSpacing": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "editor.tabSize": 2,
+  "jest.showTerminalOnLaunch": false,
+  "testing.autoRun.mode": "rerun",
+  "sqltools.autoConnectTo": "",
+  "[typescript]": {
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "extensions.experimental.useUtilityProcess": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "prettier.embeddedLanguageFormatting": "off",
+  "prettier.insertPragma": true,
+  "editor.formatOnPaste": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.requirePragma": true,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "hardhat.telemetry": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "mocha.files.glob": "**/*.spec.ts",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "mocha.sideBarOptions": {
+    "lens": true,
+    "decoration": true,
+    "autoUpdateTime": 2000,
+    "showDebugTestStatus": true,
+  },
+  "mocha.options": {
+
+  },
+  "mocha.requires": [
+    "ts-node/register",
+    "tsconfig-paths/register"
+  ],
+  "mochaExplorer.configFile": "./.mocharc.json"
+}

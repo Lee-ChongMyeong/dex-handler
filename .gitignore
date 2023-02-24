@@ -1,0 +1,13 @@
+node_modules
+dist
+
+.nyc_output
+coverage
+
+# contracts
+cache
+artifacts
+typechain
+
+# mac
+.DS_STORE
